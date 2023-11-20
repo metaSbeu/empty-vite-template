@@ -1,0 +1,29 @@
+.footer{
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 64px;
+        margin-top: 128px;
+        border-top: 1px solid #E7E8EA ;
+    }
+    &__text{
+        color: rgba(0, 0, 0, 0.54);
+        font-size: 13px;
+        line-height: 20px;
+    }
+    &__mail{
+        color: var(--day-text-link);
+        font-size: 13px;
+        text-decoration: none;
+        transition: color 0.3s;
+        &:hover{
+            color: var(--day-text-text-02);
+        }
+    }
+}

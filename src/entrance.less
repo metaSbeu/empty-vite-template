@@ -1,0 +1,43 @@
+.entrance{
+    padding: 76px 0 24px 0;
+    &__steps{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+    &__step{
+        width: 240px;
+        height: 188px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__number{
+        color: var(--day-base-base-01);
+        display: flex;
+        width: 56px;
+        padding: 12px 0;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #333333;
+        border-radius: 16px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+        position: absolute;
+    }
+    &__text{
+        background-color: var(--day-base-base-01);
+        border-radius: 24px;
+        width: 176px;
+        height: 72px;
+        padding: 56px 32px 32px 32px;
+        text-align: center;
+        color: var(--day-text-text-01, rgba(0, 0, 0, 0.80));
+        font-size: 15px;
+        line-height: 24px;
+        margin: 28px 0 0 0;
+    }
+}
