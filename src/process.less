@@ -1,0 +1,53 @@
+.process {
+    height: 408px;
+    padding: 76px 0 24px 0;
+    box-sizing: border-box;
+    &__title {
+      text-align: center;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 48px;
+      margin: 0 0 48px 0;
+    }
+    &__blocks {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__block {
+      background-color: var(--day-base-base-01);
+      border-radius: 24px;
+      padding: 32px;
+      box-sizing: border-box;
+      margin-top: 24px;
+      width: 528px;
+      height: 212px;
+      &__title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        margin: 0;
+      }
+      &__list {
+        margin: 12px 0 0 0;
+        list-style-type: none;
+        padding: 0;
+        &__item {
+          font-size: 15px;
+          line-height: 24px;
+          margin-bottom: 12px;
+          padding-left: 20px;
+          &::before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 24px;
+            background-image: url('/assets/icons/dash.svg');
+            left: 0;
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+  
